@@ -29,9 +29,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.modovanje.init.ModovanjeModItems;
-import net.mcreator.modovanje.init.ModovanjeModBlocks;
-
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -49,10 +46,6 @@ public class ModovanjeMod {
 	public ModovanjeMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
-		ModovanjeModBlocks.REGISTRY.register(bus);
-
-		ModovanjeModItems.REGISTRY.register(bus);
 
 	}
 
