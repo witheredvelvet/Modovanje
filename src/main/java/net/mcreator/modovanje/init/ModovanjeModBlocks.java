@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.modovanje.block.WazowskiBlock;
+import net.mcreator.modovanje.block.WawaBlock;
 import net.mcreator.modovanje.ModovanjeMod;
 
 public class ModovanjeModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ModovanjeMod.MODID);
+	public static final RegistryObject<Block> WAWA = REGISTRY.register("wawa", () -> new WawaBlock());
 	public static final RegistryObject<Block> WAZOWSKI = REGISTRY.register("wazowski", () -> new WazowskiBlock());
 }

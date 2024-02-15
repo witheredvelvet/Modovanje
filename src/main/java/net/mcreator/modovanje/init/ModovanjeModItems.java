@@ -16,6 +16,7 @@ import net.mcreator.modovanje.ModovanjeMod;
 
 public class ModovanjeModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ModovanjeMod.MODID);
+	public static final RegistryObject<Item> WAWA = block(ModovanjeModBlocks.WAWA);
 	public static final RegistryObject<Item> WAZOWSKI = block(ModovanjeModBlocks.WAZOWSKI);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {

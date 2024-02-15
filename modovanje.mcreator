@@ -3,6 +3,7 @@
     {
       "name": "Wazowski",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wazowski",
@@ -14,13 +15,30 @@
           "src/main/resources/assets/modovanje/blockstates/wazowski.json"
         ]
       }
+    },
+    {
+      "name": "Wawa",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wawa",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/modovanje/blockstates/wawa.json",
+          "src/main/resources/assets/modovanje/models/item/wawa.json",
+          "src/main/resources/assets/modovanje/models/block/wawa.json",
+          "src/main/java/net/mcreator/modovanje/block/WawaBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.modovanje.wazowski": "Wazowski"
+      "block.modovanje.wazowski": "Wazowski",
+      "block.modovanje.wawa": "Wawa"
     }
   },
   "foldersRoot": {
