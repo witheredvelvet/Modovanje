@@ -1,0 +1,48 @@
+{
+  "mod_elements": [
+    {
+      "name": "Wazowski",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wazowski",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/modovanje/models/item/wazowski.json",
+          "src/main/java/net/mcreator/modovanje/block/WazowskiBlock.java",
+          "src/main/resources/assets/modovanje/models/block/wazowski.json",
+          "src/main/resources/assets/modovanje/blockstates/wazowski.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.modovanje.wazowski": "Wazowski"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "modovanje",
+    "modName": "modovanje",
+    "version": "1.0.0",
+    "author": "Mimikula, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.modovanje",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
